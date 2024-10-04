@@ -33,3 +33,22 @@
 // // Mengubah objek JS menjadi string JSON
 // const jsonString = JSON.stringify(data);
 // console.log(jsonString);
+
+//topic Melakukan Request Dengan Xmlhttprequest
+// const req = new XMLHttpRequest();
+
+// let data;
+
+// req.onload = function () {
+//   data = JSON.parse(this.response);
+//   //   const data = this.response;
+//   console.log(data);
+//   //   console.log(this);
+// };
+
+// req.onerror = function () {
+//   console.log("Error", this);
+// };
+
+// req.open("GET", "https://swapi.dev/api/people/1/");
+// req.send();
